@@ -1,6 +1,6 @@
-FROM debian:buster-slim
+FROM i386/debian:buster-slim
 
-LABEL maintainer="admin@minenet.at"
+LABEL maintainer="elitemastereric@gmail.com"
 
 RUN apt-get update && \
 	apt-get -y install --no-install-recommends wget locales procps && \
